@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D042FBE0-AB4B-422C-B79C-C297887825FF}</ProjectGuid>
+    <RootNamespace>game2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bullet\b1.bmp" />
+    <None Include="bullet\b2.bmp" />
+    <None Include="bullet\b3.bmp" />
+    <None Include="bullet\blast.bmp" />
+    <None Include="downback\1.bmp" />
+    <None Include="downback\10.bmp" />
+    <None Include="downback\11.bmp" />
+    <None Include="downback\12.bmp" />
+    <None Include="downback\13.bmp" />
+    <None Include="downback\14.bmp" />
+    <None Include="downback\15.bmp" />
+    <None Include="downback\16.bmp" />
+    <None Include="downback\17.bmp" />
+    <None Include="downback\18.bmp" />
+    <None Include="downback\19.bmp" />
+    <None Include="downback\2.bmp" />
+    <None Include="downback\3.bmp" />
+    <None Include="downback\4.bmp" />
+    <None Include="downback\5.bmp" />
+    <None Include="downback\6.bmp" />
+    <None Include="downback\7.bmp" />
+    <None Include="downback\8.bmp" />
+    <None Include="downback\9.bmp" />
+    <None Include="enemy\1.bmp" />
+    <None Include="enemy\10.bmp" />
+    <None Include="enemy\11.bmp" />
+    <None Include="enemy\12.bmp" />
+    <None Include="enemy\2.bmp" />
+    <None Include="enemy\3.bmp" />
+    <None Include="enemy\4.bmp" />
+    <None Include="enemy\5.bmp" />
+    <None Include="enemy\6.bmp" />
+    <None Include="enemy\7.bmp" />
+    <None Include="enemy\8.bmp" />
+    <None Include="enemy\9.bmp" />
+    <None Include="helicopter\h1.bmp" />
+    <None Include="helicopter\h2.bmp" />
+    <None Include="helicopter\h3.bmp" />
+    <None Include="helicopter\h4.bmp" />
+    <None Include="player\1.bmp" />
+    <None Include="player\11.bmp" />
+    <None Include="player\2.bmp" />
+    <None Include="player\3.bmp" />
+    <None Include="player\4.bmp" />
+    <None Include="player\5.bmp" />
+    <None Include="player\6.bmp" />
+    <None Include="player\j1.bmp" />
+    <None Include="player\j2.bmp" />
+    <None Include="upback\1.bmp" />
+    <None Include="upback\10.bmp" />
+    <None Include="upback\11.bmp" />
+    <None Include="upback\12.bmp" />
+    <None Include="upback\13.bmp" />
+    <None Include="upback\14.bmp" />
+    <None Include="upback\15.bmp" />
+    <None Include="upback\16.bmp" />
+    <None Include="upback\17.bmp" />
+    <None Include="upback\18.bmp" />
+    <None Include="upback\19.bmp" />
+    <None Include="upback\2.bmp" />
+    <None Include="upback\20.bmp" />
+    <None Include="upback\3.bmp" />
+    <None Include="upback\4.bmp" />
+    <None Include="upback\5.bmp" />
+    <None Include="upback\6.bmp" />
+    <None Include="upback\7.bmp" />
+    <None Include="upback\8.bmp" />
+    <None Include="upback\9.bmp" />
+    <None Include="wall\c.bmp" />
+    <None Include="wall\credit.bmp" />
+    <None Include="wall\e.bmp" />
+    <None Include="wall\g.bmp" />
+    <None Include="wall\h.bmp" />
+    <None Include="wall\help.bmp" />
+    <None Include="wall\highscore.bmp" />
+    <None Include="wall\Menu.bmp" />
+    <None Include="wall\s.bmp" />
+    <None Include="wall\sc.bmp" />
+    <None Include="wall\Start.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bomb.h" />
+    <ClInclude Include="bullet.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="player\1.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\2.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\3.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\4.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\5.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\6.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\11.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\j1.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="player\j2.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\1.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\2.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\3.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\4.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\5.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\6.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\7.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\8.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\9.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\10.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\11.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enemy\12.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="helicopter\h1.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="helicopter\h2.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="helicopter\h3.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="helicopter\h4.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\1.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\2.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\3.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\4.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\5.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\6.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\7.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\8.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\9.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\10.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\11.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\12.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\13.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\14.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\15.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\16.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\17.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\18.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\19.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="upback\20.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\1.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\2.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\3.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\4.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\5.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\6.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\7.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\8.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\9.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\10.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\11.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\12.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\13.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\14.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\15.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\16.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\17.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\18.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="downback\19.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\c.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\credit.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\e.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\h.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\help.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\highscore.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\Menu.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\s.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\sc.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\Start.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="bullet\b1.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="bullet\b2.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="bullet\b3.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="bullet\blast.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wall\g.bmp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
